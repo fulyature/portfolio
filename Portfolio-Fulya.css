@@ -1,0 +1,144 @@
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: rgb(19, 30, 37);
+}
+h1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  font-size: 48px;
+  color: white;
+  font-family: "Bungee Shade", cursive;
+}
+nav a {
+  background-color: tan;
+  padding: 10px;
+
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 65px;
+  border-radius: 15px;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  min-height: 900px;
+}
+.img-container img {
+  margin-right: 4px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+.about {
+  font-family: "Rampart One", cursive;
+  color: blanchedalmond;
+  font-size: 48px;
+  margin-top: 200px;
+  margin-bottom: 400px;
+}
+.title {
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+  margin: 25px;
+  font-size: 25px;
+}
+.image-wrapper:hover {
+  opacity: 0.6;
+}
+
+.social-icons a {
+  color: tan;
+  text-decoration: none;
+  font-size: 16px;
+  height: 32px;
+  margin-right: 16px;
+}
+.social-icons i {
+  color: tan;
+  font-size: 32px;
+  margin-right: 4px;
+}
+.social-icons i:hover {
+  color: red;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-self: center;
+}
+.form input,
+textarea {
+  background-color: transparent;
+
+  border-radius: 5px;
+  border-color: bisque;
+  margin-top: 16px;
+  color: bisque;
+  font-size: 16px;
+  text-align: center;
+  padding: 16px;
+}
+input {
+  height: 56px;
+}
+.submit {
+  background-color: tan;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  opacity: 0.7;
+  font-weight: 900;
+  height: 48px;
+  font-size: 24px;
+  border: none;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+.submit:hover::after {
+  content: "   🖅";
+  font-size: 30px;
+}
+.submit:hover {
+  opacity: 1;
+  color: orangered;
+}
+.to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+  width: 100px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: tan;
+}
+.to-top a {
+  color: white;
+  font-size: 10px;
+}
